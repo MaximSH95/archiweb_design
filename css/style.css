@@ -158,4 +158,6 @@ li {
 .info__text p{
     margin-left: auto;
     margin-right: auto;
+    width: 158px;
+    height: 42px;
     }
