@@ -281,3 +281,86 @@ li {
     color: #2F2E2E;
     padding-top: 6px;
 }
+
+.name h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 51px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+.people {
+    display: flex;
+}
+
+.people__box {
+    display: flex;
+    padding-left: 100px;
+}
+
+.people__box:last-child {
+    padding-left: 0;
+}
+
+.ellipse__people {
+    width: 151px;
+    height: 151px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 78px;
+    padding-bottom: 150px;
+}
+
+.people__info h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2F2E2E;
+    padding-top: 91px;
+    padding-left: 29px;
+}
+
+.people__info p {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2F2E2E;
+    padding: 16px 186px 150px 29px;
+}
+
+footer {
+    background-color: #2E2F32;
+}
+
+.socials-link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    /* background-color: #2E2F32; */
+    background-position: center;
+}
+
+.socials-link-facebook {
+    background-image: url(../img/facebook.svg);
+}
+
+.socials-link-twitter {
+    background-image: url(../img/twitter.svg);
+}
+
+.socials-link-instagram {
+    background-image: url(../img/instagram.svg);
+
+}
+
+.socials-link-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    /* clip: rect(1px, 1px, 1px, 1px); */
+}
