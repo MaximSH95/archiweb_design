@@ -333,7 +333,33 @@ li {
 
 footer {
     background-color: #2E2F32;
+    display: flex;
+ }
+
+.end__info {
+    color: #ffffff;
 }
+
+.end__article {
+    color: #ffffff;    
+}
+
+.end__links{
+    color: #ffffff;    
+}
+
+.end__menu__link{
+    color: #ffffff;    
+}
+
+.end__link {
+    color: #ffffff;    
+}
+
+.map__container {
+    color: #ffffff;    
+}
+
 
 .socials-link {
     display: inline-block;
