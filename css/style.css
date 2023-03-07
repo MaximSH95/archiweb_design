@@ -334,32 +334,90 @@ li {
 footer {
     background-color: #2E2F32;
     display: flex;
- }
+    flex-wrap: wrap;
+}
+
+.footer__container {
+    display: flex;
+}
 
 .end__info {
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 47px 140px 0 99px;
+}
+h2 {
+    padding-bottom: 18px;
 }
 
 .end__article {
-    color: #ffffff;    
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 47px 89px 0 0;
 }
 
-.end__links{
-    color: #ffffff;    
+.end__article h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    }
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
 }
 
-.end__menu__link{
-    color: #ffffff;    
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 18px;
+}
+
+.footer__container li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    padding-bottom: 18px;
+}
+
+.end__links {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 57px 165px 0 0;
+}
+
+.end__menu__link {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 .end__link {
-    color: #ffffff;    
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 .map__container {
-    color: #ffffff;    
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 57px 100px 0 0;
 }
 
+.socials {
+    display: flex;
+    padding: 44px 0 52px 64px ;
+}
 
 .socials-link {
     display: inline-block;
@@ -369,7 +427,9 @@ footer {
     background-size: 25px;
     /* background-color: #2E2F32; */
     background-position: center;
-}
+    margin-left: 36px;
+    margin-right: 36px;
+    }
 
 .socials-link-facebook {
     background-image: url(../img/facebook.svg);
@@ -388,5 +448,5 @@ footer {
     position: absolute;
     width: 1px;
     height: 1px;
-    /* clip: rect(1px, 1px, 1px, 1px); */
+    clip: rect(1px, 1px, 1px, 1px);
 }
