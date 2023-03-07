@@ -416,7 +416,7 @@ h3 {
 
 .socials {
     display: flex;
-    padding: 44px 0 52px 64px ;
+    padding: 44px 0 52px 82px ;
 }
 
 .socials-link {
@@ -427,8 +427,8 @@ h3 {
     background-size: 25px;
     /* background-color: #2E2F32; */
     background-position: center;
-    margin-left: 36px;
-    margin-right: 36px;
+    margin-left: 16px;
+    margin-right: 18px;
     }
 
 .socials-link-facebook {
